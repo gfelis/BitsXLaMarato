@@ -1,0 +1,4388 @@
+{
+    "class" : "BayesianNetwork",
+    "name" : "139819189142864",
+    "structure" : [
+        [
+            3,
+            6,
+            7
+        ],
+        [
+            5,
+            6,
+            7
+        ],
+        [],
+        [
+            2
+        ],
+        [
+            3,
+            6,
+            7
+        ],
+        [
+            2,
+            3,
+            6,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            3,
+            6
+        ],
+        [
+            3,
+            6,
+            7
+        ],
+        [
+            2,
+            3,
+            5,
+            6,
+            7
+        ],
+        [
+            5,
+            6,
+            7
+        ]
+    ],
+    "states" : [
+        {
+            "class" : "State",
+            "distribution" : {
+                "class" : "Distribution",
+                "name" : "ConditionalProbabilityTable",
+                "table" : [
+                    [
+                        "0.0",
+                        "0.0",
+                        "1.0",
+                        "0.0",
+                        "0.5"
+                    ],
+                    [
+                        "0.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "0.5"
+                    ],
+                    [
+                        "0.0",
+                        "0.0",
+                        "2.0",
+                        "0.0",
+                        "1.0"
+                    ],
+                    [
+                        "0.0",
+                        "0.0",
+                        "2.0",
+                        "1.0",
+                        "0.0"
+                    ],
+                    [
+                        "0.0",
+                        "0.0",
+                        "3.0",
+                        "0.0",
+                        "1.0"
+                    ],
+                    [
+                        "0.0",
+                        "0.0",
+                        "3.0",
+                        "1.0",
+                        "0.0"
+                    ],
+                    [
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "0.0",
+                        "1.0"
+                    ],
+                    [
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "1.0",
+                        "0.0"
+                    ],
+                    [
+                        "0.0",
+                        "1.0",
+                        "2.0",
+                        "0.0",
+                        "0.9590163934426229"
+                    ],
+                    [
+                        "0.0",
+                        "1.0",
+                        "2.0",
+                        "1.0",
+                        "0.040983606557377046"
+                    ],
+                    [
+                        "0.0",
+                        "1.0",
+                        "3.0",
+                        "0.0",
+                        "0.98"
+                    ],
+                    [
+                        "0.0",
+                        "1.0",
+                        "3.0",
+                        "1.0",
+                        "0.02"
+                    ]
+                ],
+                "dtypes" : [
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "float"
+                ],
+                "parents" : [
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            }
+                        ]
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "0.05891980360065467"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "0.9410801963993454"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "1.0",
+                                "0.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "2.0",
+                                "0.7894736842105263"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "3.0",
+                                "0.21052631578947367"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "1.0",
+                                "0.006557377049180327"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "2.0",
+                                "0.8098360655737705"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "3.0",
+                                "0.18360655737704917"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    }
+                                ]
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.05891980360065467"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "0.9410801963993454"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    },
+                                    {
+                                        "class" : "Distribution",
+                                        "name" : "ConditionalProbabilityTable",
+                                        "table" : [
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "1.0"
+                                            ]
+                                        ],
+                                        "dtypes" : [
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "float"
+                                        ],
+                                        "parents" : [
+                                            {
+                                                "class" : "Distribution",
+                                                "dtype" : "numpy.float64",
+                                                "name" : "DiscreteDistribution",
+                                                "parameters" : [
+                                                    {
+                                                        "2.0" : 1.0
+                                                    }
+                                                ],
+                                                "frozen" : false
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "name" : "0",
+            "weight" : 1.0
+        },
+        {
+            "class" : "State",
+            "distribution" : {
+                "class" : "Distribution",
+                "name" : "ConditionalProbabilityTable",
+                "table" : [
+                    [
+                        "1.0",
+                        "0.0",
+                        "1.0",
+                        "0.0",
+                        "0.5"
+                    ],
+                    [
+                        "1.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "0.5"
+                    ],
+                    [
+                        "1.0",
+                        "0.0",
+                        "2.0",
+                        "0.0",
+                        "0.7692307692307693"
+                    ],
+                    [
+                        "1.0",
+                        "0.0",
+                        "2.0",
+                        "1.0",
+                        "0.23076923076923078"
+                    ],
+                    [
+                        "1.0",
+                        "0.0",
+                        "3.0",
+                        "0.0",
+                        "1.0"
+                    ],
+                    [
+                        "1.0",
+                        "0.0",
+                        "3.0",
+                        "1.0",
+                        "0.0"
+                    ],
+                    [
+                        "1.0",
+                        "1.0",
+                        "1.0",
+                        "0.0",
+                        "1.0"
+                    ],
+                    [
+                        "1.0",
+                        "1.0",
+                        "1.0",
+                        "1.0",
+                        "0.0"
+                    ],
+                    [
+                        "1.0",
+                        "1.0",
+                        "2.0",
+                        "0.0",
+                        "0.842391304347826"
+                    ],
+                    [
+                        "1.0",
+                        "1.0",
+                        "2.0",
+                        "1.0",
+                        "0.15760869565217392"
+                    ],
+                    [
+                        "1.0",
+                        "1.0",
+                        "3.0",
+                        "0.0",
+                        "0.6666666666666666"
+                    ],
+                    [
+                        "1.0",
+                        "1.0",
+                        "3.0",
+                        "1.0",
+                        "0.3333333333333333"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "0.0",
+                        "0.5"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "0.5"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "0.0",
+                        "1.0"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "1.0",
+                        "0.0"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "3.0",
+                        "0.0",
+                        "0.5"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "3.0",
+                        "1.0",
+                        "0.5"
+                    ],
+                    [
+                        "2.0",
+                        "1.0",
+                        "1.0",
+                        "0.0",
+                        "0.5"
+                    ],
+                    [
+                        "2.0",
+                        "1.0",
+                        "1.0",
+                        "1.0",
+                        "0.5"
+                    ],
+                    [
+                        "2.0",
+                        "1.0",
+                        "2.0",
+                        "0.0",
+                        "0.7857142857142857"
+                    ],
+                    [
+                        "2.0",
+                        "1.0",
+                        "2.0",
+                        "1.0",
+                        "0.21428571428571425"
+                    ],
+                    [
+                        "2.0",
+                        "1.0",
+                        "3.0",
+                        "0.0",
+                        "0.7272727272727273"
+                    ],
+                    [
+                        "2.0",
+                        "1.0",
+                        "3.0",
+                        "1.0",
+                        "0.2727272727272727"
+                    ]
+                ],
+                "dtypes" : [
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "float"
+                ],
+                "parents" : [
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "1.0",
+                                "1.0",
+                                "0.5"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "1.0",
+                                "2.0",
+                                "0.5"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "2.0",
+                                "1.0",
+                                "0.9285714285714286"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "2.0",
+                                "2.0",
+                                "0.07142857142857141"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "3.0",
+                                "1.0",
+                                "1.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "3.0",
+                                "2.0",
+                                "0.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "1.0",
+                                "1.0",
+                                "1.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "1.0",
+                                "2.0",
+                                "0.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "2.0",
+                                "1.0",
+                                "0.863849765258216"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "2.0",
+                                "2.0",
+                                "0.13615023474178403"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "3.0",
+                                "1.0",
+                                "0.7755102040816326"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "3.0",
+                                "2.0",
+                                "0.22448979591836735"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    }
+                                ]
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.05891980360065467"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "0.9410801963993454"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    },
+                                    {
+                                        "class" : "Distribution",
+                                        "name" : "ConditionalProbabilityTable",
+                                        "table" : [
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "1.0"
+                                            ]
+                                        ],
+                                        "dtypes" : [
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "float"
+                                        ],
+                                        "parents" : [
+                                            {
+                                                "class" : "Distribution",
+                                                "dtype" : "numpy.float64",
+                                                "name" : "DiscreteDistribution",
+                                                "parameters" : [
+                                                    {
+                                                        "2.0" : 1.0
+                                                    }
+                                                ],
+                                                "frozen" : false
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "1.0",
+                                        "0.0"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "2.0",
+                                        "0.7894736842105263"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "3.0",
+                                        "0.21052631578947367"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "1.0",
+                                        "0.006557377049180327"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "2.0",
+                                        "0.8098360655737705"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "3.0",
+                                        "0.18360655737704917"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    },
+                                    {
+                                        "class" : "Distribution",
+                                        "name" : "ConditionalProbabilityTable",
+                                        "table" : [
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "1.0"
+                                            ]
+                                        ],
+                                        "dtypes" : [
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "float"
+                                        ],
+                                        "parents" : [
+                                            {
+                                                "class" : "Distribution",
+                                                "dtype" : "numpy.float64",
+                                                "name" : "DiscreteDistribution",
+                                                "parameters" : [
+                                                    {
+                                                        "2.0" : 1.0
+                                                    }
+                                                ],
+                                                "frozen" : false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "class" : "Distribution",
+                                        "name" : "ConditionalProbabilityTable",
+                                        "table" : [
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "0.0",
+                                                "0.05891980360065467"
+                                            ],
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "1.0",
+                                                "0.9410801963993454"
+                                            ]
+                                        ],
+                                        "dtypes" : [
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "float"
+                                        ],
+                                        "parents" : [
+                                            {
+                                                "class" : "Distribution",
+                                                "dtype" : "numpy.float64",
+                                                "name" : "DiscreteDistribution",
+                                                "parameters" : [
+                                                    {
+                                                        "2.0" : 1.0
+                                                    }
+                                                ],
+                                                "frozen" : false
+                                            },
+                                            {
+                                                "class" : "Distribution",
+                                                "name" : "ConditionalProbabilityTable",
+                                                "table" : [
+                                                    [
+                                                        "2.0",
+                                                        "0.0",
+                                                        "1.0"
+                                                    ]
+                                                ],
+                                                "dtypes" : [
+                                                    "numpy.float64",
+                                                    "numpy.float64",
+                                                    "float"
+                                                ],
+                                                "parents" : [
+                                                    {
+                                                        "class" : "Distribution",
+                                                        "dtype" : "numpy.float64",
+                                                        "name" : "DiscreteDistribution",
+                                                        "parameters" : [
+                                                            {
+                                                                "2.0" : 1.0
+                                                            }
+                                                        ],
+                                                        "frozen" : false
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "0.05891980360065467"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "0.9410801963993454"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "1.0",
+                                "0.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "2.0",
+                                "0.7894736842105263"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "3.0",
+                                "0.21052631578947367"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "1.0",
+                                "0.006557377049180327"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "2.0",
+                                "0.8098360655737705"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "3.0",
+                                "0.18360655737704917"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    }
+                                ]
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.05891980360065467"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "0.9410801963993454"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    },
+                                    {
+                                        "class" : "Distribution",
+                                        "name" : "ConditionalProbabilityTable",
+                                        "table" : [
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "1.0"
+                                            ]
+                                        ],
+                                        "dtypes" : [
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "float"
+                                        ],
+                                        "parents" : [
+                                            {
+                                                "class" : "Distribution",
+                                                "dtype" : "numpy.float64",
+                                                "name" : "DiscreteDistribution",
+                                                "parameters" : [
+                                                    {
+                                                        "2.0" : 1.0
+                                                    }
+                                                ],
+                                                "frozen" : false
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "name" : "1",
+            "weight" : 1.0
+        },
+        {
+            "class" : "State",
+            "distribution" : {
+                "class" : "Distribution",
+                "dtype" : "numpy.float64",
+                "name" : "DiscreteDistribution",
+                "parameters" : [
+                    {
+                        "2.0" : 1.0
+                    }
+                ],
+                "frozen" : false
+            },
+            "name" : "2",
+            "weight" : 1.0
+        },
+        {
+            "class" : "State",
+            "distribution" : {
+                "class" : "Distribution",
+                "name" : "ConditionalProbabilityTable",
+                "table" : [
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0"
+                    ]
+                ],
+                "dtypes" : [
+                    "numpy.float64",
+                    "numpy.float64",
+                    "float"
+                ],
+                "parents" : [
+                    {
+                        "class" : "Distribution",
+                        "dtype" : "numpy.float64",
+                        "name" : "DiscreteDistribution",
+                        "parameters" : [
+                            {
+                                "2.0" : 1.0
+                            }
+                        ],
+                        "frozen" : false
+                    }
+                ]
+            },
+            "name" : "3",
+            "weight" : 1.0
+        },
+        {
+            "class" : "State",
+            "distribution" : {
+                "class" : "Distribution",
+                "name" : "ConditionalProbabilityTable",
+                "table" : [
+                    [
+                        "0.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "0.5"
+                    ],
+                    [
+                        "0.0",
+                        "0.0",
+                        "1.0",
+                        "2.0",
+                        "0.5"
+                    ],
+                    [
+                        "0.0",
+                        "0.0",
+                        "2.0",
+                        "1.0",
+                        "0.0"
+                    ],
+                    [
+                        "0.0",
+                        "0.0",
+                        "2.0",
+                        "2.0",
+                        "1.0"
+                    ],
+                    [
+                        "0.0",
+                        "0.0",
+                        "3.0",
+                        "1.0",
+                        "0.0"
+                    ],
+                    [
+                        "0.0",
+                        "0.0",
+                        "3.0",
+                        "2.0",
+                        "1.0"
+                    ],
+                    [
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "1.0",
+                        "0.0"
+                    ],
+                    [
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "2.0",
+                        "1.0"
+                    ],
+                    [
+                        "0.0",
+                        "1.0",
+                        "2.0",
+                        "1.0",
+                        "0.020242914979757082"
+                    ],
+                    [
+                        "0.0",
+                        "1.0",
+                        "2.0",
+                        "2.0",
+                        "0.979757085020243"
+                    ],
+                    [
+                        "0.0",
+                        "1.0",
+                        "3.0",
+                        "1.0",
+                        "0.0"
+                    ],
+                    [
+                        "0.0",
+                        "1.0",
+                        "3.0",
+                        "2.0",
+                        "1.0"
+                    ]
+                ],
+                "dtypes" : [
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "float"
+                ],
+                "parents" : [
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            }
+                        ]
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "0.05891980360065467"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "0.9410801963993454"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "1.0",
+                                "0.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "2.0",
+                                "0.7894736842105263"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "3.0",
+                                "0.21052631578947367"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "1.0",
+                                "0.006557377049180327"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "2.0",
+                                "0.8098360655737705"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "3.0",
+                                "0.18360655737704917"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    }
+                                ]
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.05891980360065467"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "0.9410801963993454"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    },
+                                    {
+                                        "class" : "Distribution",
+                                        "name" : "ConditionalProbabilityTable",
+                                        "table" : [
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "1.0"
+                                            ]
+                                        ],
+                                        "dtypes" : [
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "float"
+                                        ],
+                                        "parents" : [
+                                            {
+                                                "class" : "Distribution",
+                                                "dtype" : "numpy.float64",
+                                                "name" : "DiscreteDistribution",
+                                                "parameters" : [
+                                                    {
+                                                        "2.0" : 1.0
+                                                    }
+                                                ],
+                                                "frozen" : false
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "name" : "4",
+            "weight" : 1.0
+        },
+        {
+            "class" : "State",
+            "distribution" : {
+                "class" : "Distribution",
+                "name" : "ConditionalProbabilityTable",
+                "table" : [
+                    [
+                        "2.0",
+                        "0.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "0.5"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "0.0",
+                        "1.0",
+                        "2.0",
+                        "0.5"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "0.0",
+                        "2.0",
+                        "1.0",
+                        "0.9285714285714286"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "0.0",
+                        "2.0",
+                        "2.0",
+                        "0.07142857142857141"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "0.0",
+                        "3.0",
+                        "1.0",
+                        "1.0"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "0.0",
+                        "3.0",
+                        "2.0",
+                        "0.0"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "1.0",
+                        "1.0"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "2.0",
+                        "0.0"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "2.0",
+                        "1.0",
+                        "0.863849765258216"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "2.0",
+                        "2.0",
+                        "0.13615023474178403"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "3.0",
+                        "1.0",
+                        "0.7755102040816326"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "3.0",
+                        "2.0",
+                        "0.22448979591836735"
+                    ]
+                ],
+                "dtypes" : [
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "float"
+                ],
+                "parents" : [
+                    {
+                        "class" : "Distribution",
+                        "dtype" : "numpy.float64",
+                        "name" : "DiscreteDistribution",
+                        "parameters" : [
+                            {
+                                "2.0" : 1.0
+                            }
+                        ],
+                        "frozen" : false
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            }
+                        ]
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "0.05891980360065467"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "0.9410801963993454"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "1.0",
+                                "0.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "2.0",
+                                "0.7894736842105263"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "3.0",
+                                "0.21052631578947367"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "1.0",
+                                "0.006557377049180327"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "2.0",
+                                "0.8098360655737705"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "3.0",
+                                "0.18360655737704917"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    }
+                                ]
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.05891980360065467"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "0.9410801963993454"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    },
+                                    {
+                                        "class" : "Distribution",
+                                        "name" : "ConditionalProbabilityTable",
+                                        "table" : [
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "1.0"
+                                            ]
+                                        ],
+                                        "dtypes" : [
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "float"
+                                        ],
+                                        "parents" : [
+                                            {
+                                                "class" : "Distribution",
+                                                "dtype" : "numpy.float64",
+                                                "name" : "DiscreteDistribution",
+                                                "parameters" : [
+                                                    {
+                                                        "2.0" : 1.0
+                                                    }
+                                                ],
+                                                "frozen" : false
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "name" : "5",
+            "weight" : 1.0
+        },
+        {
+            "class" : "State",
+            "distribution" : {
+                "class" : "Distribution",
+                "name" : "ConditionalProbabilityTable",
+                "table" : [
+                    [
+                        "2.0",
+                        "0.0",
+                        "0.0",
+                        "0.05891980360065467"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "0.9410801963993454"
+                    ]
+                ],
+                "dtypes" : [
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "float"
+                ],
+                "parents" : [
+                    {
+                        "class" : "Distribution",
+                        "dtype" : "numpy.float64",
+                        "name" : "DiscreteDistribution",
+                        "parameters" : [
+                            {
+                                "2.0" : 1.0
+                            }
+                        ],
+                        "frozen" : false
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            }
+                        ]
+                    }
+                ]
+            },
+            "name" : "6",
+            "weight" : 1.0
+        },
+        {
+            "class" : "State",
+            "distribution" : {
+                "class" : "Distribution",
+                "name" : "ConditionalProbabilityTable",
+                "table" : [
+                    [
+                        "2.0",
+                        "0.0",
+                        "0.0",
+                        "1.0",
+                        "0.0"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "0.0",
+                        "2.0",
+                        "0.7894736842105263"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "0.0",
+                        "3.0",
+                        "0.21052631578947367"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "0.006557377049180327"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "2.0",
+                        "0.8098360655737705"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "3.0",
+                        "0.18360655737704917"
+                    ]
+                ],
+                "dtypes" : [
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "float"
+                ],
+                "parents" : [
+                    {
+                        "class" : "Distribution",
+                        "dtype" : "numpy.float64",
+                        "name" : "DiscreteDistribution",
+                        "parameters" : [
+                            {
+                                "2.0" : 1.0
+                            }
+                        ],
+                        "frozen" : false
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            }
+                        ]
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "0.05891980360065467"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "0.9410801963993454"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "name" : "7",
+            "weight" : 1.0
+        },
+        {
+            "class" : "State",
+            "distribution" : {
+                "class" : "Distribution",
+                "name" : "ConditionalProbabilityTable",
+                "table" : [
+                    [
+                        "0.0",
+                        "0.0",
+                        "1.0",
+                        "0.0",
+                        "0.5"
+                    ],
+                    [
+                        "0.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "0.5"
+                    ],
+                    [
+                        "0.0",
+                        "0.0",
+                        "2.0",
+                        "0.0",
+                        "0.9333333333333333"
+                    ],
+                    [
+                        "0.0",
+                        "0.0",
+                        "2.0",
+                        "1.0",
+                        "0.06666666666666667"
+                    ],
+                    [
+                        "0.0",
+                        "0.0",
+                        "3.0",
+                        "0.0",
+                        "1.0"
+                    ],
+                    [
+                        "0.0",
+                        "0.0",
+                        "3.0",
+                        "1.0",
+                        "0.0"
+                    ],
+                    [
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "0.0",
+                        "1.0"
+                    ],
+                    [
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "1.0",
+                        "0.0"
+                    ],
+                    [
+                        "0.0",
+                        "1.0",
+                        "2.0",
+                        "0.0",
+                        "0.9878542510121457"
+                    ],
+                    [
+                        "0.0",
+                        "1.0",
+                        "2.0",
+                        "1.0",
+                        "0.012145748987854251"
+                    ],
+                    [
+                        "0.0",
+                        "1.0",
+                        "3.0",
+                        "0.0",
+                        "0.9821428571428571"
+                    ],
+                    [
+                        "0.0",
+                        "1.0",
+                        "3.0",
+                        "1.0",
+                        "0.01785714285714285"
+                    ]
+                ],
+                "dtypes" : [
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "float"
+                ],
+                "parents" : [
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            }
+                        ]
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "0.05891980360065467"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "0.9410801963993454"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "1.0",
+                                "0.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "2.0",
+                                "0.7894736842105263"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "3.0",
+                                "0.21052631578947367"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "1.0",
+                                "0.006557377049180327"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "2.0",
+                                "0.8098360655737705"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "3.0",
+                                "0.18360655737704917"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    }
+                                ]
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.05891980360065467"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "0.9410801963993454"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    },
+                                    {
+                                        "class" : "Distribution",
+                                        "name" : "ConditionalProbabilityTable",
+                                        "table" : [
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "1.0"
+                                            ]
+                                        ],
+                                        "dtypes" : [
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "float"
+                                        ],
+                                        "parents" : [
+                                            {
+                                                "class" : "Distribution",
+                                                "dtype" : "numpy.float64",
+                                                "name" : "DiscreteDistribution",
+                                                "parameters" : [
+                                                    {
+                                                        "2.0" : 1.0
+                                                    }
+                                                ],
+                                                "frozen" : false
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "name" : "8",
+            "weight" : 1.0
+        },
+        {
+            "class" : "State",
+            "distribution" : {
+                "class" : "Distribution",
+                "name" : "ConditionalProbabilityTable",
+                "table" : [
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "0.0",
+                        "1.0",
+                        "0.0",
+                        "0.5"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "0.5"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "0.0",
+                        "2.0",
+                        "0.0",
+                        "0.7692307692307693"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "0.0",
+                        "2.0",
+                        "1.0",
+                        "0.23076923076923078"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "0.0",
+                        "3.0",
+                        "0.0",
+                        "0.75"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "0.0",
+                        "3.0",
+                        "1.0",
+                        "0.25"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "1.0",
+                        "0.0",
+                        "0.5"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "1.0",
+                        "1.0",
+                        "0.5"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "2.0",
+                        "0.0",
+                        "0.7704918032786885"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "2.0",
+                        "1.0",
+                        "0.2295081967213115"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "3.0",
+                        "0.0",
+                        "0.7894736842105263"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "3.0",
+                        "1.0",
+                        "0.21052631578947367"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "0.0",
+                        "0.5"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "0.5"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "0.0",
+                        "0.0"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "1.0",
+                        "1.0"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "0.0",
+                        "3.0",
+                        "0.0",
+                        "0.5"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "0.0",
+                        "3.0",
+                        "1.0",
+                        "0.5"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "1.0",
+                        "1.0",
+                        "0.0",
+                        "0.5"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "1.0",
+                        "1.0",
+                        "1.0",
+                        "0.5"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "1.0",
+                        "2.0",
+                        "0.0",
+                        "0.896551724137931"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "1.0",
+                        "2.0",
+                        "1.0",
+                        "0.10344827586206899"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "1.0",
+                        "3.0",
+                        "0.0",
+                        "0.9090909090909091"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "1.0",
+                        "3.0",
+                        "1.0",
+                        "0.0909090909090909"
+                    ]
+                ],
+                "dtypes" : [
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "float"
+                ],
+                "parents" : [
+                    {
+                        "class" : "Distribution",
+                        "dtype" : "numpy.float64",
+                        "name" : "DiscreteDistribution",
+                        "parameters" : [
+                            {
+                                "2.0" : 1.0
+                            }
+                        ],
+                        "frozen" : false
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            }
+                        ]
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "1.0",
+                                "1.0",
+                                "0.5"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "1.0",
+                                "2.0",
+                                "0.5"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "2.0",
+                                "1.0",
+                                "0.9285714285714286"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "2.0",
+                                "2.0",
+                                "0.07142857142857141"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "3.0",
+                                "1.0",
+                                "1.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "3.0",
+                                "2.0",
+                                "0.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "1.0",
+                                "1.0",
+                                "1.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "1.0",
+                                "2.0",
+                                "0.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "2.0",
+                                "1.0",
+                                "0.863849765258216"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "2.0",
+                                "2.0",
+                                "0.13615023474178403"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "3.0",
+                                "1.0",
+                                "0.7755102040816326"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "3.0",
+                                "2.0",
+                                "0.22448979591836735"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    }
+                                ]
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.05891980360065467"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "0.9410801963993454"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    },
+                                    {
+                                        "class" : "Distribution",
+                                        "name" : "ConditionalProbabilityTable",
+                                        "table" : [
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "1.0"
+                                            ]
+                                        ],
+                                        "dtypes" : [
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "float"
+                                        ],
+                                        "parents" : [
+                                            {
+                                                "class" : "Distribution",
+                                                "dtype" : "numpy.float64",
+                                                "name" : "DiscreteDistribution",
+                                                "parameters" : [
+                                                    {
+                                                        "2.0" : 1.0
+                                                    }
+                                                ],
+                                                "frozen" : false
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "1.0",
+                                        "0.0"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "2.0",
+                                        "0.7894736842105263"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "3.0",
+                                        "0.21052631578947367"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "1.0",
+                                        "0.006557377049180327"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "2.0",
+                                        "0.8098360655737705"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "3.0",
+                                        "0.18360655737704917"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    },
+                                    {
+                                        "class" : "Distribution",
+                                        "name" : "ConditionalProbabilityTable",
+                                        "table" : [
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "1.0"
+                                            ]
+                                        ],
+                                        "dtypes" : [
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "float"
+                                        ],
+                                        "parents" : [
+                                            {
+                                                "class" : "Distribution",
+                                                "dtype" : "numpy.float64",
+                                                "name" : "DiscreteDistribution",
+                                                "parameters" : [
+                                                    {
+                                                        "2.0" : 1.0
+                                                    }
+                                                ],
+                                                "frozen" : false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "class" : "Distribution",
+                                        "name" : "ConditionalProbabilityTable",
+                                        "table" : [
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "0.0",
+                                                "0.05891980360065467"
+                                            ],
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "1.0",
+                                                "0.9410801963993454"
+                                            ]
+                                        ],
+                                        "dtypes" : [
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "float"
+                                        ],
+                                        "parents" : [
+                                            {
+                                                "class" : "Distribution",
+                                                "dtype" : "numpy.float64",
+                                                "name" : "DiscreteDistribution",
+                                                "parameters" : [
+                                                    {
+                                                        "2.0" : 1.0
+                                                    }
+                                                ],
+                                                "frozen" : false
+                                            },
+                                            {
+                                                "class" : "Distribution",
+                                                "name" : "ConditionalProbabilityTable",
+                                                "table" : [
+                                                    [
+                                                        "2.0",
+                                                        "0.0",
+                                                        "1.0"
+                                                    ]
+                                                ],
+                                                "dtypes" : [
+                                                    "numpy.float64",
+                                                    "numpy.float64",
+                                                    "float"
+                                                ],
+                                                "parents" : [
+                                                    {
+                                                        "class" : "Distribution",
+                                                        "dtype" : "numpy.float64",
+                                                        "name" : "DiscreteDistribution",
+                                                        "parameters" : [
+                                                            {
+                                                                "2.0" : 1.0
+                                                            }
+                                                        ],
+                                                        "frozen" : false
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "0.05891980360065467"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "0.9410801963993454"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "1.0",
+                                "0.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "2.0",
+                                "0.7894736842105263"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "3.0",
+                                "0.21052631578947367"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "1.0",
+                                "0.006557377049180327"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "2.0",
+                                "0.8098360655737705"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "3.0",
+                                "0.18360655737704917"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    }
+                                ]
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.05891980360065467"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "0.9410801963993454"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    },
+                                    {
+                                        "class" : "Distribution",
+                                        "name" : "ConditionalProbabilityTable",
+                                        "table" : [
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "1.0"
+                                            ]
+                                        ],
+                                        "dtypes" : [
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "float"
+                                        ],
+                                        "parents" : [
+                                            {
+                                                "class" : "Distribution",
+                                                "dtype" : "numpy.float64",
+                                                "name" : "DiscreteDistribution",
+                                                "parameters" : [
+                                                    {
+                                                        "2.0" : 1.0
+                                                    }
+                                                ],
+                                                "frozen" : false
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "name" : "9",
+            "weight" : 1.0
+        },
+        {
+            "class" : "State",
+            "distribution" : {
+                "class" : "Distribution",
+                "name" : "ConditionalProbabilityTable",
+                "table" : [
+                    [
+                        "1.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "0.3333333333333333"
+                    ],
+                    [
+                        "1.0",
+                        "0.0",
+                        "1.0",
+                        "2.0",
+                        "0.3333333333333333"
+                    ],
+                    [
+                        "1.0",
+                        "0.0",
+                        "1.0",
+                        "3.0",
+                        "0.3333333333333333"
+                    ],
+                    [
+                        "1.0",
+                        "0.0",
+                        "2.0",
+                        "1.0",
+                        "0.07692307692307693"
+                    ],
+                    [
+                        "1.0",
+                        "0.0",
+                        "2.0",
+                        "2.0",
+                        "0.0"
+                    ],
+                    [
+                        "1.0",
+                        "0.0",
+                        "2.0",
+                        "3.0",
+                        "0.9230769230769231"
+                    ],
+                    [
+                        "1.0",
+                        "0.0",
+                        "3.0",
+                        "1.0",
+                        "0.25"
+                    ],
+                    [
+                        "1.0",
+                        "0.0",
+                        "3.0",
+                        "2.0",
+                        "0.0"
+                    ],
+                    [
+                        "1.0",
+                        "0.0",
+                        "3.0",
+                        "3.0",
+                        "0.75"
+                    ],
+                    [
+                        "1.0",
+                        "1.0",
+                        "1.0",
+                        "1.0",
+                        "0.0"
+                    ],
+                    [
+                        "1.0",
+                        "1.0",
+                        "1.0",
+                        "2.0",
+                        "0.0"
+                    ],
+                    [
+                        "1.0",
+                        "1.0",
+                        "1.0",
+                        "3.0",
+                        "1.0"
+                    ],
+                    [
+                        "1.0",
+                        "1.0",
+                        "2.0",
+                        "1.0",
+                        "0.06521739130434781"
+                    ],
+                    [
+                        "1.0",
+                        "1.0",
+                        "2.0",
+                        "2.0",
+                        "0.03260869565217392"
+                    ],
+                    [
+                        "1.0",
+                        "1.0",
+                        "2.0",
+                        "3.0",
+                        "0.9021739130434783"
+                    ],
+                    [
+                        "1.0",
+                        "1.0",
+                        "3.0",
+                        "1.0",
+                        "0.07894736842105263"
+                    ],
+                    [
+                        "1.0",
+                        "1.0",
+                        "3.0",
+                        "2.0",
+                        "0.0"
+                    ],
+                    [
+                        "1.0",
+                        "1.0",
+                        "3.0",
+                        "3.0",
+                        "0.9210526315789473"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "1.0",
+                        "0.3333333333333333"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "2.0",
+                        "0.3333333333333333"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "1.0",
+                        "3.0",
+                        "0.3333333333333333"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "1.0",
+                        "0.0"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "2.0",
+                        "0.0"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "2.0",
+                        "3.0",
+                        "1.0"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "3.0",
+                        "1.0",
+                        "0.3333333333333333"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "3.0",
+                        "2.0",
+                        "0.3333333333333333"
+                    ],
+                    [
+                        "2.0",
+                        "0.0",
+                        "3.0",
+                        "3.0",
+                        "0.3333333333333333"
+                    ],
+                    [
+                        "2.0",
+                        "1.0",
+                        "1.0",
+                        "1.0",
+                        "0.3333333333333333"
+                    ],
+                    [
+                        "2.0",
+                        "1.0",
+                        "1.0",
+                        "2.0",
+                        "0.3333333333333333"
+                    ],
+                    [
+                        "2.0",
+                        "1.0",
+                        "1.0",
+                        "3.0",
+                        "0.3333333333333333"
+                    ],
+                    [
+                        "2.0",
+                        "1.0",
+                        "2.0",
+                        "1.0",
+                        "0.03448275862068965"
+                    ],
+                    [
+                        "2.0",
+                        "1.0",
+                        "2.0",
+                        "2.0",
+                        "0.03448275862068965"
+                    ],
+                    [
+                        "2.0",
+                        "1.0",
+                        "2.0",
+                        "3.0",
+                        "0.9310344827586207"
+                    ],
+                    [
+                        "2.0",
+                        "1.0",
+                        "3.0",
+                        "1.0",
+                        "0.0"
+                    ],
+                    [
+                        "2.0",
+                        "1.0",
+                        "3.0",
+                        "2.0",
+                        "0.0"
+                    ],
+                    [
+                        "2.0",
+                        "1.0",
+                        "3.0",
+                        "3.0",
+                        "1.0"
+                    ]
+                ],
+                "dtypes" : [
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "numpy.float64",
+                    "float"
+                ],
+                "parents" : [
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "1.0",
+                                "1.0",
+                                "0.5"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "1.0",
+                                "2.0",
+                                "0.5"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "2.0",
+                                "1.0",
+                                "0.9285714285714286"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "2.0",
+                                "2.0",
+                                "0.07142857142857141"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "3.0",
+                                "1.0",
+                                "1.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "3.0",
+                                "2.0",
+                                "0.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "1.0",
+                                "1.0",
+                                "1.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "1.0",
+                                "2.0",
+                                "0.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "2.0",
+                                "1.0",
+                                "0.863849765258216"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "2.0",
+                                "2.0",
+                                "0.13615023474178403"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "3.0",
+                                "1.0",
+                                "0.7755102040816326"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "3.0",
+                                "2.0",
+                                "0.22448979591836735"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    }
+                                ]
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.05891980360065467"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "0.9410801963993454"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    },
+                                    {
+                                        "class" : "Distribution",
+                                        "name" : "ConditionalProbabilityTable",
+                                        "table" : [
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "1.0"
+                                            ]
+                                        ],
+                                        "dtypes" : [
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "float"
+                                        ],
+                                        "parents" : [
+                                            {
+                                                "class" : "Distribution",
+                                                "dtype" : "numpy.float64",
+                                                "name" : "DiscreteDistribution",
+                                                "parameters" : [
+                                                    {
+                                                        "2.0" : 1.0
+                                                    }
+                                                ],
+                                                "frozen" : false
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "1.0",
+                                        "0.0"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "2.0",
+                                        "0.7894736842105263"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "3.0",
+                                        "0.21052631578947367"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "1.0",
+                                        "0.006557377049180327"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "2.0",
+                                        "0.8098360655737705"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "3.0",
+                                        "0.18360655737704917"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    },
+                                    {
+                                        "class" : "Distribution",
+                                        "name" : "ConditionalProbabilityTable",
+                                        "table" : [
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "1.0"
+                                            ]
+                                        ],
+                                        "dtypes" : [
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "float"
+                                        ],
+                                        "parents" : [
+                                            {
+                                                "class" : "Distribution",
+                                                "dtype" : "numpy.float64",
+                                                "name" : "DiscreteDistribution",
+                                                "parameters" : [
+                                                    {
+                                                        "2.0" : 1.0
+                                                    }
+                                                ],
+                                                "frozen" : false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "class" : "Distribution",
+                                        "name" : "ConditionalProbabilityTable",
+                                        "table" : [
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "0.0",
+                                                "0.05891980360065467"
+                                            ],
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "1.0",
+                                                "0.9410801963993454"
+                                            ]
+                                        ],
+                                        "dtypes" : [
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "float"
+                                        ],
+                                        "parents" : [
+                                            {
+                                                "class" : "Distribution",
+                                                "dtype" : "numpy.float64",
+                                                "name" : "DiscreteDistribution",
+                                                "parameters" : [
+                                                    {
+                                                        "2.0" : 1.0
+                                                    }
+                                                ],
+                                                "frozen" : false
+                                            },
+                                            {
+                                                "class" : "Distribution",
+                                                "name" : "ConditionalProbabilityTable",
+                                                "table" : [
+                                                    [
+                                                        "2.0",
+                                                        "0.0",
+                                                        "1.0"
+                                                    ]
+                                                ],
+                                                "dtypes" : [
+                                                    "numpy.float64",
+                                                    "numpy.float64",
+                                                    "float"
+                                                ],
+                                                "parents" : [
+                                                    {
+                                                        "class" : "Distribution",
+                                                        "dtype" : "numpy.float64",
+                                                        "name" : "DiscreteDistribution",
+                                                        "parameters" : [
+                                                            {
+                                                                "2.0" : 1.0
+                                                            }
+                                                        ],
+                                                        "frozen" : false
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "0.05891980360065467"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "0.9410801963993454"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "1.0",
+                                "0.0"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "2.0",
+                                "0.7894736842105263"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "0.0",
+                                "3.0",
+                                "0.21052631578947367"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "1.0",
+                                "0.006557377049180327"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "2.0",
+                                "0.8098360655737705"
+                            ],
+                            [
+                                "2.0",
+                                "0.0",
+                                "1.0",
+                                "3.0",
+                                "0.18360655737704917"
+                            ]
+                        ],
+                        "dtypes" : [
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "numpy.float64",
+                            "float"
+                        ],
+                        "parents" : [
+                            {
+                                "class" : "Distribution",
+                                "dtype" : "numpy.float64",
+                                "name" : "DiscreteDistribution",
+                                "parameters" : [
+                                    {
+                                        "2.0" : 1.0
+                                    }
+                                ],
+                                "frozen" : false
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    }
+                                ]
+                            },
+                            {
+                                "class" : "Distribution",
+                                "name" : "ConditionalProbabilityTable",
+                                "table" : [
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.05891980360065467"
+                                    ],
+                                    [
+                                        "2.0",
+                                        "0.0",
+                                        "1.0",
+                                        "0.9410801963993454"
+                                    ]
+                                ],
+                                "dtypes" : [
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "numpy.float64",
+                                    "float"
+                                ],
+                                "parents" : [
+                                    {
+                                        "class" : "Distribution",
+                                        "dtype" : "numpy.float64",
+                                        "name" : "DiscreteDistribution",
+                                        "parameters" : [
+                                            {
+                                                "2.0" : 1.0
+                                            }
+                                        ],
+                                        "frozen" : false
+                                    },
+                                    {
+                                        "class" : "Distribution",
+                                        "name" : "ConditionalProbabilityTable",
+                                        "table" : [
+                                            [
+                                                "2.0",
+                                                "0.0",
+                                                "1.0"
+                                            ]
+                                        ],
+                                        "dtypes" : [
+                                            "numpy.float64",
+                                            "numpy.float64",
+                                            "float"
+                                        ],
+                                        "parents" : [
+                                            {
+                                                "class" : "Distribution",
+                                                "dtype" : "numpy.float64",
+                                                "name" : "DiscreteDistribution",
+                                                "parameters" : [
+                                                    {
+                                                        "2.0" : 1.0
+                                                    }
+                                                ],
+                                                "frozen" : false
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "name" : "10",
+            "weight" : 1.0
+        }
+    ]
+}
