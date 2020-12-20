@@ -1,0 +1,7 @@
+Cython
+uvicorn
+numpy
+pandas
+fastapi
+pomegranate==0.11
+
